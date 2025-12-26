@@ -1,0 +1,42 @@
+Structure of E-Commerce
+
+
+//User Register/Login
+
+   api/user/register
+   api/user/login
+   api/user/profile
+
+
+//Product API
+
+   api/product/add
+   api/product/get
+   api/product/get/:id
+   api/product/update/:id
+   api/product/delete/:id
+
+//Cart API
+
+   api/cart/add
+   api/cart/uercart
+   api/cartremove/:id
+   api/cart/--qty/:id
+   api/cart/clear
+
+
+//Shipping API
+  
+   api/address/add
+   api/address/get
+
+//Payment API
+
+   api/payment/pay
+   api/payment/verify
+
+
+//Order API
+   
+   api/order/confirm
+   api/order/confirm/all
